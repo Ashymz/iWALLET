@@ -1,0 +1,21 @@
+# This is a generated file; do not edit or check into version control.
+firebase_core=/Users/wikiwoo/.pub-cache/hosted/pub.dev/firebase_core-2.20.0/
+firebase_core_web=/Users/wikiwoo/.pub-cache/hosted/pub.dev/firebase_core_web-2.8.1/
+flutter_plugin_android_lifecycle=/Users/wikiwoo/.pub-cache/hosted/pub.dev/flutter_plugin_android_lifecycle-2.0.17/
+geolocator=/Users/wikiwoo/.pub-cache/hosted/pub.dev/geolocator-10.1.0/
+geolocator_android=/Users/wikiwoo/.pub-cache/hosted/pub.dev/geolocator_android-4.3.1/
+geolocator_apple=/Users/wikiwoo/.pub-cache/hosted/pub.dev/geolocator_apple-2.3.2/
+geolocator_web=/Users/wikiwoo/.pub-cache/hosted/pub.dev/geolocator_web-2.2.0/
+geolocator_windows=/Users/wikiwoo/.pub-cache/hosted/pub.dev/geolocator_windows-0.2.2/
+local_auth=/Users/wikiwoo/.pub-cache/hosted/pub.dev/local_auth-2.1.7/
+local_auth_android=/Users/wikiwoo/.pub-cache/hosted/pub.dev/local_auth_android-1.0.35/
+local_auth_ios=/Users/wikiwoo/.pub-cache/hosted/pub.dev/local_auth_ios-1.1.4/
+local_auth_windows=/Users/wikiwoo/.pub-cache/hosted/pub.dev/local_auth_windows-1.0.10/
+location=/Users/wikiwoo/.pub-cache/hosted/pub.dev/location-5.0.3/
+location_web=/Users/wikiwoo/.pub-cache/hosted/pub.dev/location_web-4.2.0/
+path_provider=/Users/wikiwoo/.pub-cache/hosted/pub.dev/path_provider-2.1.1/
+path_provider_android=/Users/wikiwoo/.pub-cache/hosted/pub.dev/path_provider_android-2.2.1/
+path_provider_foundation=/Users/wikiwoo/.pub-cache/hosted/pub.dev/path_provider_foundation-2.3.1/
+path_provider_linux=/Users/wikiwoo/.pub-cache/hosted/pub.dev/path_provider_linux-2.2.1/
+path_provider_windows=/Users/wikiwoo/.pub-cache/hosted/pub.dev/path_provider_windows-2.2.1/
+sqflite=/Users/wikiwoo/.pub-cache/hosted/pub.dev/sqflite-2.3.0/
