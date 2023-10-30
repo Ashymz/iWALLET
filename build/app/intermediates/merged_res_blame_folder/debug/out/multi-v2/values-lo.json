@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.iwallet.app-mergeDebugResources-27:/values-lo/values-lo.xml",
+            "outputFile": "com.example.iwallet.app-mergeDebugResources-28:/values-lo/values-lo.xml",
             "map": [
                 {
                     "source": "/Users/wikiwoo/.gradle/caches/transforms-3/c4bef32df95512f278af1664dcd1e9c3/transformed/jetified-play-services-basement-18.1.0/res/values-lo/values.xml",

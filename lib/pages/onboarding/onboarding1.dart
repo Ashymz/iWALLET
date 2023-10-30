@@ -177,6 +177,7 @@ class _OnBoarding1State extends State<OnBoarding1> {
                             child: Container(
                               // height: height / 17,
                               width: width / 1.19,
+                              height: 40,
                               child: ElevatedButton(
                                 onPressed: () {
                                   Get.to(const StartPage());

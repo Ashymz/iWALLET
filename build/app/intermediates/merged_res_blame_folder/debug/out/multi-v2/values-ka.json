@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.iwallet.app-mergeDebugResources-27:/values-ka/values-ka.xml",
+            "outputFile": "com.example.iwallet.app-mergeDebugResources-28:/values-ka/values-ka.xml",
             "map": [
                 {
                     "source": "/Users/wikiwoo/.gradle/caches/transforms-3/69eab0af8d354d7833d51f0f9f1d33bc/transformed/biometric-1.1.0/res/values-ka/values-ka.xml",

@@ -44,6 +44,7 @@ dependencies:
   geolocator: ^10.1.0
   provider: ^6.0.2
   http: ^0.13.5
+  pinput: ^2.2.31
   cached_network_image: ^3.2.3
   local_auth: ^2.1.6
   firebase_core: ^2.11.0

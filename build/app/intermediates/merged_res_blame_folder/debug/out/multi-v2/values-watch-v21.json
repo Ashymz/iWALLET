@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.iwallet.app-mergeDebugResources-27:/values-watch-v21/values-watch-v21.xml",
+            "outputFile": "com.example.iwallet.app-mergeDebugResources-28:/values-watch-v21/values-watch-v21.xml",
             "map": [
                 {
                     "source": "/Users/wikiwoo/.gradle/caches/transforms-3/c3c89935519ae42d0a0a165536b2b171/transformed/appcompat-1.2.0/res/values-watch-v21/values-watch-v21.xml",

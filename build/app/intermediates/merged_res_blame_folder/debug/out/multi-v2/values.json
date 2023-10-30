@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.iwallet.app-mergeDebugResources-27:/values/values.xml",
+            "outputFile": "com.example.iwallet.app-mergeDebugResources-28:/values/values.xml",
             "map": [
                 {
                     "source": "/Users/wikiwoo/.gradle/caches/transforms-3/46bdf35b96180629e977aef4cfe7eca5/transformed/core-1.10.1/res/values/values.xml",
@@ -59,22 +59,22 @@
                     }
                 },
                 {
-                    "source": "/Users/wikiwoo/Mobileapp/iwallet/android/app/src/main/res/values/styles.xml",
+                    "source": "/Users/wikiwoo/Sites/iWALLET/build/local_auth_android/intermediates/packaged_res/debug/values/values.xml",
                     "from": {
-                        "startLines": "3,14",
-                        "startColumns": "4,4",
-                        "startOffsets": "173,818",
-                        "endLines": "7,16",
-                        "endColumns": "12,12",
-                        "endOffsets": "476,982"
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,100,144,190,238",
+                        "endLines": "2,3,4,5,11",
+                        "endColumns": "44,43,45,47,10",
+                        "endOffsets": "95,139,185,233,533"
                     },
                     "to": {
-                        "startLines": "1467,1471",
-                        "startColumns": "4,4",
-                        "startOffsets": "94153,94334",
-                        "endLines": "1470,1473",
-                        "endColumns": "12,12",
-                        "endOffsets": "94329,94498"
+                        "startLines": "64,91,223,224,394",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "2952,4986,14012,14058,26046",
+                        "endLines": "64,91,223,224,399",
+                        "endColumns": "44,43,45,47,10",
+                        "endOffsets": "2992,5025,14053,14101,26341"
                     }
                 },
                 {
@@ -94,25 +94,6 @@
                         "endLines": "75,76,77,78,79,80,81,82,360,361,362,363,364,365,366,367,369,370,371,372,373,374,375,376,377,2759,2994",
                         "endColumns": "89,79,89,89,79,80,79,79,104,180,124,106,179,122,115,102,187,104,180,124,174,147,62,61,78,20,20",
                         "endOffsets": "3854,3934,4024,4114,4194,4275,4355,4435,22438,22619,22744,22851,23031,23154,23270,23373,23728,23833,24014,24139,24314,24462,24525,24587,24666,156310,163668"
-                    }
-                },
-                {
-                    "source": "/Users/wikiwoo/Mobileapp/iwallet/build/local_auth_android/intermediates/packaged_res/debug/values/values.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "55,100,144,190,238",
-                        "endLines": "2,3,4,5,11",
-                        "endColumns": "44,43,45,47,10",
-                        "endOffsets": "95,139,185,233,533"
-                    },
-                    "to": {
-                        "startLines": "64,91,223,224,394",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "2952,4986,14012,14058,26046",
-                        "endLines": "64,91,223,224,399",
-                        "endColumns": "44,43,45,47,10",
-                        "endOffsets": "2992,5025,14053,14101,26341"
                     }
                 },
                 {
@@ -257,6 +238,25 @@
                         "startOffsets": "18182,19269",
                         "endColumns": "41,59",
                         "endOffsets": "18219,19324"
+                    }
+                },
+                {
+                    "source": "/Users/wikiwoo/Sites/iWALLET/android/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "3,14",
+                        "startColumns": "4,4",
+                        "startOffsets": "173,818",
+                        "endLines": "7,16",
+                        "endColumns": "12,12",
+                        "endOffsets": "476,982"
+                    },
+                    "to": {
+                        "startLines": "1467,1471",
+                        "startColumns": "4,4",
+                        "startOffsets": "94153,94334",
+                        "endLines": "1470,1473",
+                        "endColumns": "12,12",
+                        "endOffsets": "94329,94498"
                     }
                 },
                 {

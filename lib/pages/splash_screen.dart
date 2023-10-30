@@ -2,10 +2,11 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iwallet/pages/onboarding/onboarding1.dart';
+import 'package:iwallet/utils/heartbeat.dart';
 import 'package:iwallet/utils/media.dart';
 
 class Splashscreen extends StatefulWidget {
-  const Splashscreen({super.key});
+  const Splashscreen({Key? key}) : super(key: key);
 
   @override
   State<Splashscreen> createState() => _SplashscreenState();
@@ -51,25 +52,38 @@ class _SplashscreenState extends State<Splashscreen> {
                       fit: BoxFit.cover,
                     ),
                   ),
-                  Opacity(
-                    opacity: _opacity,
-                    child: SlideTransition(
-                      position: Tween<Offset>(
-                        begin: Offset(0, 3),
-                        end: Offset(0, 0),
-                      ).animate(
-                        CurvedAnimation(
-                          parent: AlwaysStoppedAnimation(1),
-                          curve: Curves.bounceIn,
+                  Center(
+                    child: HeartbeatAnimation(
+                      child: Center(
+                        child: Image.asset(
+                          'images/image 1.png',
+                          width: 200,
+                          height: 200,
                         ),
-                      ),
-                      child: Image.asset(
-                        'images/image 1.png',
-                        width: 200,
-                        height: 200,
                       ),
                     ),
                   ),
+                  // Opacity(
+                  //   opacity: _opacity,
+                  //   child: SlideTransition(
+                  //     position: Tween<Offset>(
+                  //       begin: Offset(0, 3),
+                  //       end: Offset(0, 0),
+                  //     ).animate(
+                  //       CurvedAnimation(
+                  //         parent: AlwaysStoppedAnimation(1),
+                  //         curve: Curves.bounceIn,
+                  //       ),
+                  //     ),
+                  //     child:
+
+                  //     Image.asset(
+                  //       '',
+                  //       width: 200,
+                  //       height: 200,
+                  //     ),
+                  //   ),
+                  // ),
                 ],
               ),
             ],

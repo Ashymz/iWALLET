@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.iwallet.app-mergeDebugResources-27:/values-sw/values-sw.xml",
+            "outputFile": "com.example.iwallet.app-mergeDebugResources-28:/values-sw/values-sw.xml",
             "map": [
                 {
                     "source": "/Users/wikiwoo/.gradle/caches/transforms-3/46bdf35b96180629e977aef4cfe7eca5/transformed/core-1.10.1/res/values-sw/values-sw.xml",

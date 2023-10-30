@@ -12,7 +12,6 @@ class Navbar extends StatefulWidget {
 }
 
 class _NavbarState extends State<Navbar> {
- 
   int currentTab = 0;
   bool keyboardOpen = false;
   bool hasInternetConnection = true;
@@ -20,24 +19,18 @@ class _NavbarState extends State<Navbar> {
 
   final List screens = [
     const HomeScreen(),
-    // const Analytics(),
-    // const AccountWallet(),
-    // const Profile(),
+    const HomeScreen(),
+    const HomeScreen(),
+    const HomeScreen(),
   ];
 
   final PageStorageBucket bucket = PageStorageBucket();
-  Widget currentScreen = const OnBoarding1();
-
-  
+  Widget currentScreen = const HomeScreen();
 
   @override
   void initState() {
     super.initState();
-   
-   
   }
-
-  
 
   // void subscribeToLocationChanges() {
   //   Geolocator.getPositionStream().listen((Position position) {
@@ -58,11 +51,8 @@ class _NavbarState extends State<Navbar> {
   //   });
   // }
 
- 
-
   @override
   Widget build(BuildContext context) {
-   
     return MediaQuery(
       data: MediaQuery.of(context).copyWith(textScaleFactor: 0.85),
       child: WillPopScope(
@@ -71,8 +61,8 @@ class _NavbarState extends State<Navbar> {
           },
           child: Scaffold(
             backgroundColor: Colors.blueAccent,
-            body:  PageStorage(bucket: bucket, child: currentScreen),
-                
+            body: PageStorage(bucket: bucket, child: currentScreen),
+
             // floatingActionButton: FloatingActionButton(
             //   backgroundColor: Colors.blueAccent,
             //   child: Image.asset(
@@ -96,8 +86,21 @@ class _NavbarState extends State<Navbar> {
               shape: const CircularNotchedRectangle(),
               notchMargin: 10,
               child: Container(
-                color:  Colors.blueAccent,
-                height: 60,
+                decoration: BoxDecoration(
+                  color: Colors.white,
+                  borderRadius: BorderRadius.only(
+                    topLeft: Radius.circular(20),
+                    topRight: Radius.circular(20),
+                  ),
+                  boxShadow: <BoxShadow>[
+                    BoxShadow(
+                      color: Colors.grey.withOpacity(0.4),
+                      blurRadius: 25.0,
+                      offset: const Offset(0.0, 0.95),
+                    ),
+                  ],
+                ),
+                height: 75,
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
@@ -122,14 +125,14 @@ class _NavbarState extends State<Navbar> {
                             children: [
                               currentTab == 0
                                   ? Image.asset(
-                                      "images/home1.png",
-                                      height: height / 34,
-                                      color: Colors.blueAccent,
+                                      "images/home-variant.png",
+                                      height: 34,
+                                      color: Color(0xff015cd9),
                                     )
                                   : Image.asset(
-                                      "images/home.png",
-                                      height: height / 33,
-                                      color: Colors.blueAccent,
+                                      "images/home-variant.png",
+                                      height: 33,
+                                      color: Color(0xffb4b4b4),
                                     ),
                             ],
                           ),
@@ -140,58 +143,85 @@ class _NavbarState extends State<Navbar> {
                         MaterialButton(
                           minWidth: 40,
                           onPressed: () {
-                            // setState(
-                            //   () {
-                            //     currentScreen = const Analytics();
-                            //     currentTab = 1;
-                            //   },
-                            // );
+                            setState(
+                              () {
+                                // currentScreen = const Analytics();
+                                currentTab = 1;
+                              },
+                            );
                           },
                           child: Column(
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: [
                               currentTab == 1
                                   ? Image.asset(
-                                      "images/order1.png",
-                                      height: height / 33,
-                                      color: Colors.blueAccent,
+                                      "images/trophy-variant.png",
+                                      height: 34,
+                                      color: Color(0xff015cd9),
                                     )
                                   : Image.asset(
-                                      "images/variant.png",
-                                      height: height / 33,
-                                      color: Colors.blueAccent,
+                                      "images/trophy-variant.png",
+                                      height: 33,
+                                      color: Color(0xffb4b4b4),
                                     ),
                             ],
                           ),
                         ),
                       ],
                     ),
+                    MaterialButton(
+                          minWidth: 40,
+                          onPressed: () {
+                            setState(
+                              () {
+                                currentScreen = const HomeScreen();
+                                currentTab = 2;
+                              },
+                            );
+                          },
+                          child: Column(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            children: [
+                              currentTab == 2
+                                  ? Image.asset(
+                                      "images/cash-img.png",
+                                      height: 34,
+                                      color: Color(0xff015cd9),
+                                    )
+                                  : Image.asset(
+                                      "images/cash-img.png",
+                                      height: 33,
+                                      color: Color(0xffb4b4b4),
+                                    ),
+                            ],
+                          ),
+                        ),
                     Row(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         MaterialButton(
                           minWidth: 40,
                           onPressed: () {
-                            // setState(
-                            //   () {
-                            //     currentScreen = const AccountWallet();
-                            //     currentTab = 3;
-                            //   },
-                            // );
+                            setState(
+                              () {
+                                // currentScreen = const AccountWallet();
+                                currentTab = 3;
+                              },
+                            );
                           },
                           child: Column(
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: [
                               currentTab == 3
                                   ? Image.asset(
-                                      "images/wallet.png",
-                                      height: height / 30,
-                                      color: Colors.blueAccent,
+                                      "images/credit-card.png",
+                                      height: 34,
+                                      color: Color(0xff015cd9),
                                     )
                                   : Image.asset(
-                                      "images/message1.png",
-                                      height: height / 30,
-                                      color: Colors.blueAccent,
+                                      "images/credit-card.png",
+                                      height: 33,
+                                      color: Color(0xffb4b4b4),
                                     ),
                             ],
                           ),
@@ -202,26 +232,26 @@ class _NavbarState extends State<Navbar> {
                         MaterialButton(
                           minWidth: 40,
                           onPressed: () {
-                            // setState(
-                            //   () {
-                            //     currentScreen = const Profile();
-                            //     currentTab = 4;
-                            //   },
-                            // );
+                            setState(
+                              () {
+                                // currentScreen = const Profile();
+                                currentTab = 4;
+                              },
+                            );
                           },
                           child: Column(
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: [
                               currentTab == 4
                                   ? Image.asset(
-                                      "images/profile1.png",
-                                      height: height / 30,
-                                      color: Colors.blueAccent,
+                                      "images/bot-img.png",
+                                      height: 34,
+                                      color: Color(0xff015cd9),
                                     )
                                   : Image.asset(
-                                      "images/profile.png",
-                                      height: height / 30,
-                                      color: Colors.blueAccent,
+                                      "images/bot-img.png",
+                                      height: 33,
+                                      color: Color(0xffb4b4b4),
                                     ),
                             ],
                           ),
